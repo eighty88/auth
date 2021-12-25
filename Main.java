@@ -29,7 +29,7 @@ class Main {
         File o = new File(output, "output.txt");
 
         List<String> list = new ArrayList<>();
-        for (int i = 0; i < 25; i++) {
+        for (int i = 0; i < 50; i++) {
             list.add(UUID.randomUUID().toString());
         }
 
